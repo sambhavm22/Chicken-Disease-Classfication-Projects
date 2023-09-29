@@ -20,7 +20,7 @@ setuptools.setup(
     description="A small python package for CNN app",
     long_description=long_description,
     long_description_content="text/markdown",
-    url="https://github.com/krishnaik06/Chicken-Disease-Classification-Projects",
+    url="https://github.com/sambhavm22/Chicken-Disease-Classfication-Projects",
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
