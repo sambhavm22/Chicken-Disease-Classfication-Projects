@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.1
+Summary: A small python package for CNN app
+Home-page: https://github.com/sambhavm22/Chicken-Disease-Classfication-Projects
+Author: sambhavm22
+Author-email: sambhavm22@gmail.com
+Project-URL: Bug Tracker, https://github.com/sambhavm22/Chicken-Disease-Classification-Project/issues
+
+Chicken Disease Classification Problem with tensorflow 2.5 version
