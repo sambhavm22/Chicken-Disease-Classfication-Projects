@@ -28,11 +28,11 @@ class ConfigurationManager:
         )
 
         return data_ingestion_config
-    
+
     def get_prepare_base_model_config(self) -> PrepareBaseModelConfig:
         config = self.config.prepare_base_model
 
-        create_directories([self.root_dir])
+        create_directories([config.root_dir])
 
         prepare_base_model_config = PrepareBaseModelConfig(
             root_dir = Path(config.root_dir),
@@ -45,7 +45,6 @@ class ConfigurationManager:
             params_weights = self.params.WEIGHTS            
             )
         return prepare_base_model_config
-    
 
     
     
