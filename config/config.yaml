@@ -19,6 +19,6 @@ prepare_callbacks:
 
 training:
   root_dir: artifacts/training
-  train_model_path: artifacts/training/model.h5
+  trained_model_path: artifacts/training/model.h5
 
 
