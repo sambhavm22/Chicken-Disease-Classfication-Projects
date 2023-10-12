@@ -128,7 +128,6 @@ def get_size(path: Path):
 
     return f"~ {size_in_kb} KB"
 
-@ensure_annotations
 def decode_image(img_string, filename : str):
 
     """decode images
@@ -143,7 +142,6 @@ def decode_image(img_string, filename : str):
         f.write(img_data)
         f.close()
 
-@ensure_annotations
 def encode_image_into_Base64(croppedImgPath):
 
     """encode images
